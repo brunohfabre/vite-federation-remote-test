@@ -1,5 +1,4 @@
 import { ReactNode } from "react"
-import reactLogo from './assets/react.svg'
 
 interface ButtonProps {
   children: ReactNode
@@ -20,8 +19,6 @@ export function Button({ children }: ButtonProps) {
       }}
     >
       {children}
-
-      <img src={reactLogo} className="logo react" alt="React logo" width={32} height={32} />
     </button>
   )
 }

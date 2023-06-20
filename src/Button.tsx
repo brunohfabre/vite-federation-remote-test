@@ -14,7 +14,7 @@ export function Button({ children }: ButtonProps) {
         display: 'flex', 
         alignItems: 'center', 
         justifyContent: 'center', 
-        backgroundColor: 'tomato', 
+        backgroundColor: 'blue', 
         color: 'white' 
       }}
     >
